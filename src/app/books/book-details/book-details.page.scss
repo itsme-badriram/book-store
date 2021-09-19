@@ -1,0 +1,59 @@
+.poster-card {
+    background-size: cover;
+    max-height: 300px;
+    padding: 0px;
+}
+ion-card-content {
+    padding: 0px;
+    margin-bottom: -6px;
+}
+ion-slides {
+    --bullet-background-active: whitesmoke;
+}
+p {
+    display: inline;
+}
+.book-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.book-author {
+    color: #a83434;
+}
+.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.book-price {
+    font-size: 40px;
+    color: #a83434;
+}
+.buttonbtn {
+    margin-bottom: 7px;
+}
+.text {
+    font-size: 20px;
+}
+.book-old-price {
+    padding: 5px;
+}
+.book-discount {
+    color: #388e3c;
+}
+.btn {
+    padding-left: 5px;
+}
+.stock-availability {
+    font-size: 22px;
+    color: #388e3c;
+}
+.services {
+    padding-left: 10px;
+}
+
+.segment-style {
+    min-width: 9rem;
+    --color-checked: none;
+}

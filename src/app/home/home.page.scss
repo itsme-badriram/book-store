@@ -1,27 +1,29 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.poster-card {
+    background-size: cover;
+    max-height: 300px;
+    padding: 0px;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.card-content {
+    padding: 0px;
+    margin-bottom: -6px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-slides {
+    --bullet-background-active: whitesmoke;
 }
-
-#container a {
-  text-decoration: none;
+.poster {
+}
+.segment-style {
+    min-width: 9rem;
+    --color-checked: none;
+}
+.segment-style-sponsored {
+    min-width: 16rem;
+    --color-checked: none;
+}
+.container {
+}
+.poster-container {
+    float: right;
+    width: 160px;
+    height: 160px;
 }

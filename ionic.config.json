@@ -1,7 +1,8 @@
 {
   "name": "book-store",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -1,0 +1,42 @@
+
+.books-list {
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0px;
+  }
+.books-list:active {
+    background-color: whitesmoke;
+    transition: ease-in-out;
+}
+p {
+    display: inline;
+}
+.book-title {
+}
+.book-cover-container {
+    display: flex;
+    justify-content: center;
+}
+.book-edition {
+    padding: 5px;
+    color: #aba9a9;
+}
+.book-cover {
+    width: 140px;
+    height: 170px;
+}
+.book-author {
+    color: #a83434;
+    padding: 5px;
+}
+.book-publication {
+    padding: 5px;
+    color: #828282;
+}
+.book-price {
+    color: #a83434;
+    padding: 5px;
+    font-size: 22px;
+}
+.book-favorite {
+    float: right;
+}

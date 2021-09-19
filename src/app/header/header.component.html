@@ -1,0 +1,20 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons> 
+    <ion-img src="../../assets/logo.png" (click)="onHome()" class="logo"></ion-img>
+    <ion-buttons slot="end">
+      <ion-button> 
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <!--<ion-title *ngIf="!isSearchbarOpened"><span class="header-icon"><ion-icon color="light" name="book-outline"></ion-icon></span><span class="header-title">Books App</span></ion-title>
+    
+  <ion-searchbar (keyup.enter)="searchByKeyword($event)" class="searchbar" (ionBlur)="checkBlur()" mode="ios" *ngIf="isSearchbarOpened" type="tel" showCancelButton="true" (ionCancel)="isSearchbarOpened=false"></ion-searchbar>
+  <ion-buttons slot="end">
+    <ion-button  *ngIf="!isSearchbarOpened" (click)="isSearchbarOpened=true">
+    <ion-icon name="search"></ion-icon></ion-button>
+  </ion-buttons> -->
+</ion-toolbar> 
+</ion-header>

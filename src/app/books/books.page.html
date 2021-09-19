@@ -1,0 +1,36 @@
+<app-header></app-header>
+<ion-content>  
+  <div class="books-list" (click)="onBookDetails(book.id)" *ngFor="let book of books">
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col size-xs="5" size-sm="3" size-md="2">
+        <div class="book-cover-container">
+        <img class="book-cover" [src]="['../../assets/'+ book.cover]">
+      </div>
+      </ion-col>
+      <ion-col size-xs="7" size-sm="9" size-md="10"> 
+       <div class="book-title ion-text-wrap">
+        {{book.title}} 
+       </div>
+       <div class="book-author ion-text-wrap">
+        by <p *ngFor="let author of book.author; index as i"><span>{{author}} </span> <span *ngIf=" i != book.author.length - 1"> | </span> 
+          </p>
+          
+       </div>
+       <div class="book-publication ion-text-wrap">
+         {{book.publication}}
+       </div>
+       <div class="book-edition ion-text-wrap">
+        {{book.edition}}th Edition
+      </div>
+       <div class="book-price">
+      </div>
+      <div class="book-favorite">
+        <ion-icon size="large" color="success" name="checkmark-done-circle"></ion-icon> <ion-icon color="danger" size="large" name="heart"></ion-icon>
+      </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+</ion-content>
